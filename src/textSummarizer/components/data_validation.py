@@ -25,4 +25,3 @@ class DataValidation:
         except Exception as e:
             logging.exception(e)
             raise e
-        

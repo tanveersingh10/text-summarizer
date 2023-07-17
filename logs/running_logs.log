@@ -381,3 +381,1001 @@ x==========x]
 [2023-07-16 12:16:13,200: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
 
 x==========x]
+[2023-07-16 13:55:45,566: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-16 13:55:45,568: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-16 13:55:45,569: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-16 13:55:45,569: INFO: common: created directory at: artifacts]
+[2023-07-16 13:55:45,569: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-16 13:55:45,569: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-16 13:55:45,646: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-16 13:55:45,646: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-16 13:55:45,647: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-16 13:55:45,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-16 13:55:45,648: INFO: common: created directory at: artifacts]
+[2023-07-16 13:55:45,648: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-16 13:55:45,648: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-16 13:55:45,648: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-16 13:55:45,649: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-16 13:55:45,649: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-16 13:55:45,649: INFO: common: created directory at: artifacts]
+[2023-07-16 13:55:45,649: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-16 13:55:51,116: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-16 13:59:06,763: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-16 13:59:06,765: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-16 13:59:06,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-16 13:59:06,765: INFO: common: created directory at: artifacts]
+[2023-07-16 13:59:06,765: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-16 13:59:06,765: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-16 13:59:06,843: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-16 13:59:06,843: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-16 13:59:06,844: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-16 13:59:06,844: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-16 13:59:06,844: INFO: common: created directory at: artifacts]
+[2023-07-16 13:59:06,844: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-16 13:59:06,844: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-16 13:59:06,844: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-16 13:59:06,845: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-16 13:59:06,845: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-16 13:59:06,845: INFO: common: created directory at: artifacts]
+[2023-07-16 13:59:06,845: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-16 13:59:07,911: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-16 13:59:08,015: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-b0cab44a4eb6c893.arrow]
+[2023-07-16 13:59:08,106: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:51:07,485: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 13:51:07,488: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:51:07,489: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:51:07,489: INFO: common: created directory at: artifacts]
+[2023-07-17 13:51:07,489: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 13:51:07,489: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 13:51:07,578: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:51:07,578: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 13:51:07,579: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:51:07,580: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:51:07,580: INFO: common: created directory at: artifacts]
+[2023-07-17 13:51:07,580: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 13:51:07,581: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:51:07,581: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 13:51:07,582: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:51:07,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:51:07,583: INFO: common: created directory at: artifacts]
+[2023-07-17 13:51:07,583: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 13:51:08,821: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 13:51:08,828: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 13:51:09,035: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:51:09,035: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 13:51:09,036: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:51:09,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:51:09,037: INFO: common: created directory at: artifacts]
+[2023-07-17 13:51:09,037: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 13:51:09,037: ERROR: main: "'ConfigBox' object has no attribute 'per_device_train_batch_size'"]
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'per_device_train_batch_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'per_device_train_batch_size'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'per_device_train_batch_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'per_device_train_batch_size'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'per_device_train_batch_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'per_device_train_batch_size'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'per_device_train_batch_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 11, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/config/configuration.py", line 70, in get_model_trainer_config
+    per_device_train_batch_size = params.per_device_train_batch_size,
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'per_device_train_batch_size'"
+[2023-07-17 13:52:32,669: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 13:52:32,671: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:52:32,672: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:52:32,672: INFO: common: created directory at: artifacts]
+[2023-07-17 13:52:32,672: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 13:52:32,672: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 13:52:32,746: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:52:32,747: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 13:52:32,748: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:52:32,749: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:52:32,749: INFO: common: created directory at: artifacts]
+[2023-07-17 13:52:32,749: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 13:52:32,749: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:52:32,749: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 13:52:32,750: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:52:32,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:52:32,751: INFO: common: created directory at: artifacts]
+[2023-07-17 13:52:32,751: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 13:52:33,821: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 13:52:33,828: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 13:52:33,835: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 13:52:33,894: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:52:33,894: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 13:52:33,895: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:52:33,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:52:33,896: INFO: common: created directory at: artifacts]
+[2023-07-17 13:52:33,896: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 13:52:33,896: ERROR: main: "'ConfigBox' object has no attribute 'evaluation_strategy'"]
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 11, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/config/configuration.py", line 73, in get_model_trainer_config
+    evaluation_strategy = params.evaluation_strategy,
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+[2023-07-17 13:53:38,328: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 13:53:38,330: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:53:38,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:53:38,331: INFO: common: created directory at: artifacts]
+[2023-07-17 13:53:38,331: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 13:53:38,331: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 13:53:38,404: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:53:38,405: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 13:53:38,406: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:53:38,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:53:38,407: INFO: common: created directory at: artifacts]
+[2023-07-17 13:53:38,407: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 13:53:38,407: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:53:38,407: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 13:53:38,408: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:53:38,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:53:38,409: INFO: common: created directory at: artifacts]
+[2023-07-17 13:53:38,409: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 13:53:39,465: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 13:53:39,472: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 13:53:39,478: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 13:53:39,541: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:53:39,541: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 13:53:39,543: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:53:39,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:53:39,544: INFO: common: created directory at: artifacts]
+[2023-07-17 13:53:39,544: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 13:53:39,544: ERROR: main: "'ConfigBox' object has no attribute 'evaluation_strategy'"]
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 11, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/config/configuration.py", line 73, in get_model_trainer_config
+    evaluation_strategy = params.evaluation_strategy,
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+[2023-07-17 13:54:15,516: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 13:54:15,517: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:54:15,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:54:15,518: INFO: common: created directory at: artifacts]
+[2023-07-17 13:54:15,518: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 13:54:15,518: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 13:54:15,593: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:54:15,593: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 13:54:15,594: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:54:15,595: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:54:15,595: INFO: common: created directory at: artifacts]
+[2023-07-17 13:54:15,595: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 13:54:15,595: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:54:15,595: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 13:54:15,596: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:54:15,597: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:54:15,597: INFO: common: created directory at: artifacts]
+[2023-07-17 13:54:15,597: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 13:54:17,115: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 13:54:17,121: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 13:54:17,128: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 13:54:17,188: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:54:17,188: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 13:54:17,190: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:54:17,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:54:17,190: INFO: common: created directory at: artifacts]
+[2023-07-17 13:54:17,191: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 13:57:56,484: ERROR: main: Torch not compiled with CUDA enabled]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 17, in train
+    model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_ckpt).to(device)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/modeling_utils.py", line 1902, in to
+    return super().to(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1145, in to
+    return self._apply(convert)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 797, in _apply
+    module._apply(fn)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 820, in _apply
+    param_applied = fn(param)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1143, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/cuda/__init__.py", line 239, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+[2023-07-17 13:59:44,801: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 13:59:44,803: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:59:44,804: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:59:44,804: INFO: common: created directory at: artifacts]
+[2023-07-17 13:59:44,804: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 13:59:44,804: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 13:59:44,878: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:59:44,878: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 13:59:44,879: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:59:44,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:59:44,880: INFO: common: created directory at: artifacts]
+[2023-07-17 13:59:44,880: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 13:59:44,880: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:59:44,880: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 13:59:44,882: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:59:44,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:59:44,882: INFO: common: created directory at: artifacts]
+[2023-07-17 13:59:44,882: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 13:59:45,973: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 13:59:45,980: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 13:59:45,987: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 13:59:46,087: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 13:59:46,087: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 13:59:46,089: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 13:59:46,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 13:59:46,089: INFO: common: created directory at: artifacts]
+[2023-07-17 13:59:46,089: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 13:59:53,991: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 24, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 111, in __init__
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/training_args.py", line 1227, in __post_init__
+    if self.evaluation_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2023-07-17 14:00:36,327: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:00:36,329: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:00:36,330: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:00:36,330: INFO: common: created directory at: artifacts]
+[2023-07-17 14:00:36,330: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:00:36,330: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:00:36,405: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:00:36,405: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:00:36,406: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:00:36,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:00:36,407: INFO: common: created directory at: artifacts]
+[2023-07-17 14:00:36,407: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:00:36,407: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:00:36,407: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:00:36,408: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:00:36,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:00:36,409: INFO: common: created directory at: artifacts]
+[2023-07-17 14:00:36,409: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:00:37,466: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:00:37,473: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:00:37,480: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:00:37,538: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:00:37,538: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:00:37,540: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:00:37,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:00:37,541: INFO: common: created directory at: artifacts]
+[2023-07-17 14:00:37,541: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:00:45,562: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 24, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 111, in __init__
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/training_args.py", line 1227, in __post_init__
+    if self.evaluation_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2023-07-17 14:01:34,632: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:01:34,634: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:01:34,635: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:01:34,635: INFO: common: created directory at: artifacts]
+[2023-07-17 14:01:34,635: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:01:34,635: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:01:34,708: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:01:34,709: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:01:34,710: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:01:34,711: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:01:34,711: INFO: common: created directory at: artifacts]
+[2023-07-17 14:01:34,711: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:01:34,711: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:01:34,711: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:01:34,712: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:01:34,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:01:34,713: INFO: common: created directory at: artifacts]
+[2023-07-17 14:01:34,713: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:01:35,789: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:01:35,796: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:01:35,802: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:01:35,861: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:01:35,861: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:01:35,863: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:01:35,864: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:01:35,864: INFO: common: created directory at: artifacts]
+[2023-07-17 14:01:35,864: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:01:44,197: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 24, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 111, in __init__
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/training_args.py", line 1340, in __post_init__
+    and (self.device.type != "cuda")
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/training_args.py", line 1764, in device
+    return self._setup_devices
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/utils/generic.py", line 54, in __get__
+    cached = self.fget(obj)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/training_args.py", line 1672, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2023-07-17 14:05:16,741: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpezxjsabz]
+[2023-07-17 14:05:16,741: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpezxjsabz/_remote_module_non_scriptable.py]
+[2023-07-17 14:05:16,834: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:05:16,835: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:05:16,836: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:05:16,837: INFO: common: created directory at: artifacts]
+[2023-07-17 14:05:16,837: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:05:16,837: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:05:16,921: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:05:16,921: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:05:16,922: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:05:16,923: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:05:16,923: INFO: common: created directory at: artifacts]
+[2023-07-17 14:05:16,923: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:05:16,923: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:05:16,923: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:05:16,924: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:05:16,925: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:05:16,925: INFO: common: created directory at: artifacts]
+[2023-07-17 14:05:16,925: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:05:18,075: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:05:18,082: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:05:18,089: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:05:18,150: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:05:18,150: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:05:18,152: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:05:18,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:05:18,153: INFO: common: created directory at: artifacts]
+[2023-07-17 14:05:18,153: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:05:26,891: ERROR: main: Placeholder storage has not been allocated on MPS device!]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 37, in train
+    trainer.train()
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1645, in train
+    return inner_training_loop(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2759, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2784, in compute_loss
+    outputs = model(**inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1416, in forward
+    outputs = self.model(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1253, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 769, in forward
+    inputs_embeds = self.embed_tokens(input_ids) * self.embed_scale
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Placeholder storage has not been allocated on MPS device!
+[2023-07-17 14:07:28,822: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp0u8txl3b]
+[2023-07-17 14:07:28,822: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp0u8txl3b/_remote_module_non_scriptable.py]
+[2023-07-17 14:07:28,897: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:07:28,898: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:07:28,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:07:28,899: INFO: common: created directory at: artifacts]
+[2023-07-17 14:07:28,899: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:07:28,900: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:07:28,974: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:07:28,974: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:07:28,975: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:07:28,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:07:28,976: INFO: common: created directory at: artifacts]
+[2023-07-17 14:07:28,976: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:07:28,977: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:07:28,977: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:07:28,978: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:07:28,978: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:07:28,979: INFO: common: created directory at: artifacts]
+[2023-07-17 14:07:28,979: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:07:30,068: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:07:30,075: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:07:30,082: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:07:30,141: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:07:30,141: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:07:30,143: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:07:30,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:07:30,144: INFO: common: created directory at: artifacts]
+[2023-07-17 14:07:30,144: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:07:39,614: ERROR: main: Placeholder storage has not been allocated on MPS device!]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1645, in train
+    return inner_training_loop(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2759, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2784, in compute_loss
+    outputs = model(**inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1416, in forward
+    outputs = self.model(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1253, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 769, in forward
+    inputs_embeds = self.embed_tokens(input_ids) * self.embed_scale
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Placeholder storage has not been allocated on MPS device!
+[2023-07-17 14:12:43,893: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpec2uhqo5]
+[2023-07-17 14:12:43,893: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpec2uhqo5/_remote_module_non_scriptable.py]
+[2023-07-17 14:12:43,974: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:12:43,976: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:12:43,977: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:12:43,978: INFO: common: created directory at: artifacts]
+[2023-07-17 14:12:43,978: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:12:43,978: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:12:44,057: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:12:44,057: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:12:44,058: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:12:44,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:12:44,059: INFO: common: created directory at: artifacts]
+[2023-07-17 14:12:44,059: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:12:44,060: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:12:44,060: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:12:44,061: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:12:44,062: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:12:44,062: INFO: common: created directory at: artifacts]
+[2023-07-17 14:12:44,062: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:12:45,206: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:12:45,214: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:12:45,220: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:12:45,286: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:12:45,286: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:12:45,288: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:12:45,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:12:45,289: INFO: common: created directory at: artifacts]
+[2023-07-17 14:12:45,289: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:12:54,869: ERROR: main: Placeholder storage has not been allocated on MPS device!]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1645, in train
+    return inner_training_loop(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2759, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2784, in compute_loss
+    outputs = model(**inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1416, in forward
+    outputs = self.model(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1253, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 769, in forward
+    inputs_embeds = self.embed_tokens(input_ids) * self.embed_scale
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Placeholder storage has not been allocated on MPS device!
+[2023-07-17 14:15:26,881: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpjm1v2bwr]
+[2023-07-17 14:15:26,882: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpjm1v2bwr/_remote_module_non_scriptable.py]
+[2023-07-17 14:15:26,952: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:15:26,953: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:15:26,954: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:15:26,954: INFO: common: created directory at: artifacts]
+[2023-07-17 14:15:26,955: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:15:26,955: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:15:27,029: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:15:27,029: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:15:27,030: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:15:27,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:15:27,031: INFO: common: created directory at: artifacts]
+[2023-07-17 14:15:27,031: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:15:27,031: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:15:27,031: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:15:27,033: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:15:27,033: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:15:27,034: INFO: common: created directory at: artifacts]
+[2023-07-17 14:15:27,034: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:15:28,168: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:15:28,175: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:15:28,183: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:15:28,243: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:15:28,243: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:15:28,245: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:15:28,245: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:15:28,246: INFO: common: created directory at: artifacts]
+[2023-07-17 14:15:28,246: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:15:37,732: ERROR: main: Placeholder storage has not been allocated on MPS device!]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1645, in train
+    return inner_training_loop(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2759, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2784, in compute_loss
+    outputs = model(**inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1416, in forward
+    outputs = self.model(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1253, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 769, in forward
+    inputs_embeds = self.embed_tokens(input_ids) * self.embed_scale
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/functional.py", line 2210, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Placeholder storage has not been allocated on MPS device!
+[2023-07-17 14:19:20,550: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpg9ez2bs8]
+[2023-07-17 14:19:20,550: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpg9ez2bs8/_remote_module_non_scriptable.py]
+[2023-07-17 14:19:20,626: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 14:19:20,627: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:19:20,628: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:19:20,628: INFO: common: created directory at: artifacts]
+[2023-07-17 14:19:20,628: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 14:19:20,628: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 14:19:20,704: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:19:20,705: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 14:19:20,706: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:19:20,707: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:19:20,707: INFO: common: created directory at: artifacts]
+[2023-07-17 14:19:20,707: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 14:19:20,707: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:19:20,707: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 14:19:20,708: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:19:20,709: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:19:20,709: INFO: common: created directory at: artifacts]
+[2023-07-17 14:19:20,709: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 14:19:22,217: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 14:19:22,224: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 14:19:22,231: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 14:19:22,293: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 14:19:22,293: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 14:19:22,295: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 14:19:22,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 14:19:22,296: INFO: common: created directory at: artifacts]
+[2023-07-17 14:19:22,296: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 14:29:14,188: ERROR: main: MPS backend out of memory (MPS allocated: 9.01 GB, other allocations: 9.11 GB, max allowed: 18.13 GB). Tried to allocate 16.00 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1645, in train
+    return inner_training_loop(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2770, in training_step
+    self.accelerator.backward(loss)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 9.01 GB, other allocations: 9.11 GB, max allowed: 18.13 GB). Tried to allocate 16.00 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2023-07-17 15:15:50,682: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp6iq3doo7]
+[2023-07-17 15:15:50,683: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp6iq3doo7/_remote_module_non_scriptable.py]
+[2023-07-17 15:15:50,757: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 15:15:50,759: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:15:50,760: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:15:50,760: INFO: common: created directory at: artifacts]
+[2023-07-17 15:15:50,760: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 15:15:50,760: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 15:15:50,835: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 15:15:50,835: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 15:15:50,836: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:15:50,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:15:50,837: INFO: common: created directory at: artifacts]
+[2023-07-17 15:15:50,837: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 15:15:50,838: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 15:15:50,838: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 15:15:50,839: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:15:50,840: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:15:50,840: INFO: common: created directory at: artifacts]
+[2023-07-17 15:15:50,840: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 15:15:51,968: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 15:15:51,975: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 15:15:51,983: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 15:15:52,114: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 15:15:52,114: INFO: main: *******************]
+[2023-07-17 15:15:52,114: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-07-17 15:15:52,116: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:15:52,117: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:15:52,117: INFO: common: created directory at: artifacts]
+[2023-07-17 15:15:52,117: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-07-17 15:15:52,117: ERROR: main: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.]
+Traceback (most recent call last):
+  File "main.py", line 57, in <module>
+    model_evaluation.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_05_model_evaluation.py", line 13, in main
+    model_evaluation_config.evaluate()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_evaluation.py", line 57, in evaluate
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 643, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 487, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+[2023-07-17 15:26:37,985: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpz9qo5h6h]
+[2023-07-17 15:26:37,986: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmpz9qo5h6h/_remote_module_non_scriptable.py]
+[2023-07-17 15:26:38,045: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 15:26:38,047: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:26:38,047: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:26:38,048: INFO: common: created directory at: artifacts]
+[2023-07-17 15:26:38,048: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 15:26:38,048: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 15:26:38,123: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 15:26:38,123: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 15:26:38,125: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:26:38,125: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:26:38,125: INFO: common: created directory at: artifacts]
+[2023-07-17 15:26:38,126: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 15:26:38,126: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 15:26:38,126: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 15:26:38,127: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:26:38,128: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:26:38,128: INFO: common: created directory at: artifacts]
+[2023-07-17 15:26:38,128: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 15:26:39,257: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 15:26:39,264: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 15:26:39,271: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 15:26:39,341: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 15:26:39,341: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 15:26:39,343: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 15:26:39,343: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 15:26:39,343: INFO: common: created directory at: artifacts]
+[2023-07-17 15:26:39,344: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 15:39:42,290: ERROR: main: MPS backend out of memory (MPS allocated: 9.24 GB, other allocations: 8.89 GB, max allowed: 18.13 GB). Tried to allocate 25.66 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "main.py", line 45, in <module>
+    model_training.main()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 13, in main
+    model_trainer.train()
+  File "/Users/tanveersingh/Desktop/text-summarizer/src/textSummarizer/components/model_trainer.py", line 40, in train
+    trainer.train()
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1645, in train
+    return inner_training_loop(
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2759, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/trainer.py", line 2784, in compute_loss
+    outputs = model(**inputs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1433, in forward
+    lm_logits = self.lm_head(outputs[0]) + self.final_logits_bias
+RuntimeError: MPS backend out of memory (MPS allocated: 9.24 GB, other allocations: 8.89 GB, max allowed: 18.13 GB). Tried to allocate 25.66 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
