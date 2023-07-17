@@ -1379,3 +1379,48 @@ Traceback (most recent call last):
   File "/Users/tanveersingh/miniconda3/envs/text-s/lib/python3.8/site-packages/transformers/models/pegasus/modeling_pegasus.py", line 1433, in forward
     lm_logits = self.lm_head(outputs[0]) + self.final_logits_bias
 RuntimeError: MPS backend out of memory (MPS allocated: 9.24 GB, other allocations: 8.89 GB, max allowed: 18.13 GB). Tried to allocate 25.66 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2023-07-17 16:15:07,767: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp4otq5viv]
+[2023-07-17 16:15:07,768: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp4otq5viv/_remote_module_non_scriptable.py]
+[2023-07-17 16:15:07,888: INFO: server: Started server process [65654]]
+[2023-07-17 16:15:07,888: INFO: on: Waiting for application startup.]
+[2023-07-17 16:15:07,888: INFO: on: Application startup complete.]
+[2023-07-17 16:15:07,889: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2023-07-17 16:16:03,694: INFO: instantiator: Created a temporary directory at /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp3p3kh7a0]
+[2023-07-17 16:16:03,694: INFO: instantiator: Writing /var/folders/53/0x83tcxx3mq1vlzhqjj8vlzr0000gn/T/tmp3p3kh7a0/_remote_module_non_scriptable.py]
+[2023-07-17 16:16:03,766: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2023-07-17 16:16:03,767: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 16:16:03,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 16:16:03,768: INFO: common: created directory at: artifacts]
+[2023-07-17 16:16:03,768: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-17 16:16:03,768: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-07-17 16:16:03,852: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 16:16:03,852: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2023-07-17 16:16:03,853: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 16:16:03,854: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 16:16:03,854: INFO: common: created directory at: artifacts]
+[2023-07-17 16:16:03,854: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-17 16:16:03,855: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 16:16:03,855: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2023-07-17 16:16:03,857: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 16:16:03,858: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 16:16:03,858: INFO: common: created directory at: artifacts]
+[2023-07-17 16:16:03,858: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-17 16:16:05,092: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-626bf289f5dcdb19.arrow]
+[2023-07-17 16:16:05,100: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/test/cache-49f15f44d91d8086.arrow]
+[2023-07-17 16:16:05,108: WARNING: arrow_dataset: Loading cached processed dataset at /Users/tanveersingh/Desktop/text-summarizer/artifacts/data_ingestion/samsum_dataset/validation/cache-99193d67ba8e5b52.arrow]
+[2023-07-17 16:16:05,225: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2023-07-17 16:16:05,226: INFO: main: >>>>>> stage Model Training Stage started <<<<<<]
+[2023-07-17 16:16:05,228: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-07-17 16:16:05,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-17 16:16:05,229: INFO: common: created directory at: artifacts]
+[2023-07-17 16:16:05,229: INFO: common: created directory at: artifacts/model_trainer]
+[2023-07-17 16:38:48,011: INFO: server: Shutting down]
+[2023-07-17 16:38:48,115: INFO: on: Waiting for application shutdown.]
+[2023-07-17 16:38:48,117: INFO: on: Application shutdown complete.]
+[2023-07-17 16:38:48,118: INFO: server: Finished server process [65654]]

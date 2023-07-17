@@ -1,7 +1,7 @@
 # params for the deep learning algorithm
 
 TrainingArguments:
-  num_train_epochs: 1
+  num_train_epochs: 10
   warmup_steps: 500  # use a very low learning rate for a set number of training steps, this has the benefit of slowly starting to tune things like attention mechanisms
   per_device_train_batch_size: 1
   weight_decay: 0.01 # helps prevent overfitting 
