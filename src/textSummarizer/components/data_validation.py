@@ -15,11 +15,14 @@ class DataValidation:
                 if required_file not in all_files_set:
                     with open(self.config.STATUS_FILE, 'w') as f:
                         f.write("Validation status: False")
+                    logging.exception("validation unsuccessful, there are files missing")
                     return False
 
             with open(self.config.STATUS_FILE, "w") as f:
                 f.write("Validation status: All data files exist")
+                logging.info("Validation completed successfully")
 
+            
             return True
 
         except Exception as e:

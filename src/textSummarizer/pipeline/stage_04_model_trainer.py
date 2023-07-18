@@ -1,6 +1,6 @@
 from textSummarizer.config.configuration import ConfigurationManager
 from textSummarizer.components.model_trainer import ModelTrainer
-from textSummarizer.logging import logging
+
 
 class ModelTrainerTrainingPipeline:
     def __init__(self):

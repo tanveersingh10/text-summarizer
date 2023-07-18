@@ -49,7 +49,7 @@ except Exception as e:
         raise e
 
 
-STAGE_NAME = "Model Evaluation stage"
+STAGE_NAME = "Model Evaluation Stage"
 try: 
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")

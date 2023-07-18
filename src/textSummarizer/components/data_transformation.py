@@ -9,9 +9,7 @@ class DataTransformation:
         self.config = config
         self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
 
-
     def convert_examples_to_features(self,example_batch):
-
         # The tokenizer returns a dictionary containing the following keys:
         # 'input_ids': a list of token ids to be fed to a model
         # 'attention_mask': a list of integers specifying which tokens should be attended to by the model

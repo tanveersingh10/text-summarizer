@@ -11,8 +11,8 @@ class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
 
-    
     def download_file(self):
+        #check if file has already been downloaded 
         if not os.path.exists(self.config.local_data_file):
             filename, headers = request.urlretrieve(
                 url = self.config.source_URL,
@@ -25,8 +25,7 @@ class DataIngestion:
         
     
     def extract_zip_file(self):
-
         unzip_path = self.config.unzip_dir
-        os.makedirs(unzip_path, exist_ok=True)
+        os.makedirs(unzip_path, exist_ok=True) # if the file already exists dont throw an error 
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)

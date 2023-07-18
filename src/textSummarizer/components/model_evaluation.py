@@ -11,18 +11,18 @@ class ModelEvaluation:
         self.config = config
 
     
-    def generate_batch_sized_chunks(self,list_of_elements, batch_size):
+    def create_batches(self,list_of_elements, batch_size):
         #split the dataset into smaller batches that can be processed simultaneously
         for i in range(0, len(list_of_elements), batch_size):
             yield list_of_elements[i : i + batch_size]
 
     
-    def calculate_metric_on_test_ds(self,dataset, metric, model, tokenizer, 
+    def calculate_metrics(self,dataset, metric, model, tokenizer, 
                                batch_size=16, device="cuda" if torch.cuda.is_available() else "cpu", 
                                column_text="article", 
                                column_summary="highlights"):
-        article_batches = list(self.generate_batch_sized_chunks(dataset[column_text], batch_size))
-        target_batches = list(self.generate_batch_sized_chunks(dataset[column_summary], batch_size))
+        article_batches = list(self.create_batches(dataset[column_text], batch_size))
+        target_batches = list(self.create_batches(dataset[column_summary], batch_size))
 
         for article_batch, target_batch in tqdm(
             zip(article_batches, target_batches), total=len(article_batches)):
@@ -55,7 +55,7 @@ class ModelEvaluation:
     def evaluate(self):
         device = "cuda" if torch.cuda.is_available() else "cpu"
         tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
-        model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_path).to(device)
+        model_pegasus = AutoModelForSeq2SeqLM.from_pretrained(self.config.model_path).to(device) #to device to specify where the model is loaded    
        
         #loading data 
         dataset_samsum_pt = load_from_disk(self.config.data_path)
@@ -70,13 +70,13 @@ class ModelEvaluation:
 
         rouge_metric = load_metric('rouge')
 
-        score = self.calculate_metric_on_test_ds(
+        score = self.calculate_metrics(
             dataset_samsum_pt['test'][0:10], rouge_metric, model_pegasus, tokenizer, batch_size = 2, column_text = 'dialogue', column_summary= 'summary'
         )
 
         rouge_dict = dict((rn, score[rn].mid.fmeasure ) for rn in rouge_names )
 
         df = pd.DataFrame(rouge_dict, index = ['pegasus'] )
-        df.to_csv(self.config.metric_file_name, index=False)
+        df.to_csv(self.config.metric_file_name, index=False) #exclude the index column from the resulting CSV file
 
         

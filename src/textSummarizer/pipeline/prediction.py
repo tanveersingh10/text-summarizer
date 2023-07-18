@@ -10,7 +10,7 @@ class PredictionPipeline:
     def predict(self, text):
         tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
 
-        #from documentation:
+        #from huggingface documentation:
         #summarizer = pipeline("summarization", model="t5-base", tokenizer="t5-base", framework="tf")
         pipe = pipeline("summarization", model=self.config.model_path,tokenizer=tokenizer)
 

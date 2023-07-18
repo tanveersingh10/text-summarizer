@@ -1,6 +1,5 @@
 from textSummarizer.config.configuration import ConfigurationManager
 from textSummarizer.components.data_validation import DataValidation
-from textSummarizer.logging import logger
 
 class DataValidationTrainingPieline:
     def __init__(self):
