@@ -1,6 +1,7 @@
+#using this file to store all my config details - easier to update values rather than hardcoding them 
+#yaml is so much cleaner than json and xml
+
 # artifacts are by-product produced during the development process - for example when unzipping dataset it will create more files
-# not necessary to create config.yaml file but helps to prevent hardcoding values and make it easier to update configurations in the future
-# yaml is just a lot cleaner than json and xml
 artifacts_root: artifacts
 
 data_ingestion: 

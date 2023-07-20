@@ -1,8 +1,8 @@
 import os
-from textSummarizer.logging import logger
 from transformers import AutoTokenizer
 from datasets import load_from_disk
 from textSummarizer.entity import DataTransformationConfig
+from textSummarizer.logging import logger
 
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
@@ -22,8 +22,9 @@ class DataTransformation:
             'attention_mask': input_encodings['attention_mask'],
             'labels': target_encodings['input_ids']
         }
-        # Had to google what attention_mask was so writing it here so I remember 
+        # Just learnt what attention_mask is so writing it here to remember
         # An attention mask is a binary tensor indicating the position of the padded indices so that the model does not attend to them.
+        # since model expects input sizes to be the same there will be some padding of zeros
 
     def convert(self):
         dataset_samsum = load_from_disk(self.config.data_path) 
